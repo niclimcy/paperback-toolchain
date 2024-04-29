@@ -20,7 +20,7 @@ $ npm install -g @paperback/toolchain
 $ paperback COMMAND
 running command...
 $ paperback (--version)
-@paperback/toolchain/0.8.0-alpha.47 darwin-arm64 node-v16.13.0
+@paperback/toolchain/0.8.0-alpha.47 darwin-arm64 node-v21.4.0
 $ paperback --help [COMMAND]
 USAGE
   $ paperback COMMAND
@@ -30,6 +30,7 @@ USAGE
 # Commands
 <!-- commands -->
 * [`paperback bundle`](#paperback-bundle)
+* [`paperback create`](#paperback-create)
 * [`paperback help [COMMANDS]`](#paperback-help-commands)
 * [`paperback logcat`](#paperback-logcat)
 * [`paperback migrate`](#paperback-migrate)
@@ -62,6 +63,20 @@ DESCRIPTION
 ```
 
 _See code: [dist/commands/bundle.ts](https://github.com/Paperback-iOS/toolchain/blob/v0.8.0-alpha.47/dist/commands/bundle.ts)_
+
+## `paperback create`
+
+create a new project
+
+```
+USAGE
+  $ paperback create
+
+DESCRIPTION
+  create a new project
+```
+
+_See code: [dist/commands/create.ts](https://github.com/Paperback-iOS/toolchain/blob/v0.8.0-alpha.47/dist/commands/create.ts)_
 
 ## `paperback help [COMMANDS]`
 

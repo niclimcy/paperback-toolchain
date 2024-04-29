@@ -9,3 +9,4 @@ const fs = require('fs')
 // Copy website-generation files to the lib folder
 fs.mkdirSync('dist/website-generation')
 fs.copyFileSync('src/website-generation/homepage.pug', 'dist/website-generation/homepage.pug')
+fs.cpSync('template', 'dist/template', {recursive: true})
